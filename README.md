@@ -7,6 +7,7 @@
 - Next.js 14
 - Tailwind
 - Shadcn/ui
+- Kinde Auth
 - Prisma
 - TRPC
 - Zod

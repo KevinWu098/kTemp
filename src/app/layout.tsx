@@ -11,9 +11,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-    title: "Life, Squared",
-    description:
-        "See life, piece by piece, week by week. Inspired by Tim Urban's Life Calendar.",
+    title: "kTemp",
+    description: "A template repository with a setup I love",
     icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 

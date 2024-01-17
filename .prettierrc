@@ -1,12 +1,11 @@
-/** @type {import('prettier').Config & import('prettier-plugin-tailwindcss').PluginOptions & import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
-const config = {
-    tabWidth: 4,
-    useTabs: false,
-    plugins: [
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "plugins": [
         "prettier-plugin-tailwindcss",
-        "@ianvs/prettier-plugin-sort-imports",
+        "@ianvs/prettier-plugin-sort-imports"
     ],
-    importOrder: [
+    "importOrder": [
         "^(react/(.*)$)|^(react$)",
         "^(next/(.*)$)|^(next$)",
         "<THIRD_PARTY_MODULES>",
@@ -21,9 +20,7 @@ const config = {
         "^~/styles/(.*)$",
         "^~/app/(.*)$",
         "",
-        "^[./]",
+        "^[./]"
     ],
-    importOrderParserPlugins: ["typescript", "jsx", "decorators-legacy"],
-};
-
-module.exports = config;
+    "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"]
+}

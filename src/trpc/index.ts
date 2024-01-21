@@ -41,29 +41,31 @@ export const appRouter = router({
             },
         });
     }),
-    updateUser: privateProcedure.input({}).mutation(async ({ ctx, input }) => {
-        const { userId } = ctx;
-        // const {} = input;
+    updateUser: privateProcedure
+        .input(z.object({}))
+        .mutation(async ({ ctx, input }) => {
+            const { userId } = ctx;
+            const {} = input;
 
-        const existingUser = await db.user.findFirst({
-            where: {
-                id: userId,
-            },
-        });
+            const existingUser = await db.user.findFirst({
+                where: {
+                    id: userId,
+                },
+            });
 
-        if (!existingUser) {
-            throw new TRPCError({ code: "NOT_FOUND" });
-        }
+            if (!existingUser) {
+                throw new TRPCError({ code: "NOT_FOUND" });
+            }
 
-        const updatedUser = await db.user.update({
-            where: {
-                id: userId,
-            },
-            data: {},
-        });
+            const updatedUser = await db.user.update({
+                where: {
+                    id: userId,
+                },
+                data: {},
+            });
 
-        return updatedUser;
-    }),
+            return updatedUser;
+        }),
 });
 
 export type AppRouter = typeof appRouter;

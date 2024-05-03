@@ -46,7 +46,7 @@
 
 ### 🏅 HACKATHON — WINNING CATEGORY (ex: Best Use of X)
 
-<br>e
+<br>
 
 <p align="center">
     <a href="EXAMPLE LINK">

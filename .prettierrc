@@ -1,6 +1,7 @@
 {
     "tabWidth": 4,
     "useTabs": false,
+    "printWidth": 80,
     "plugins": [
         "@ianvs/prettier-plugin-sort-imports",
         "prettier-plugin-tailwindcss"

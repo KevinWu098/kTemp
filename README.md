@@ -1,7 +1,9 @@
-# kTemp ⚙️
+# kTemp
+
 > ### A template repository with a setup I love 💖
 
 ## Contains:
+
 <p align="center">
   <img src=https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB alt="React">
   <img src=https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white alt="Typescript">
@@ -16,8 +18,7 @@
   <img src=https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white alt="ESLint">
 </p>
 
-<!--
---------------------------
+## <!--
 
 # [EXAMPLE](https://devpost.com/software/EXAMPLE)
 
